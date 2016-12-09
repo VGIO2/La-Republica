@@ -1,1 +1,11 @@
-/* Inserta tu código de la página home/index acá */
+.lista ul li{
+    display:inline-block;
+}
+.lista{
+    width:200px: 
+}
+.logo{
+    margin-left: 50px;
+    
+
+}
