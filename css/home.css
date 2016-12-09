@@ -1,1 +1,22 @@
-/* Inserta tu código de la página home/index acá */
+*
+{
+    outline: 1px solid red;
+}
+
+.temas{
+    text-align: center;
+
+}
+.list-inline
+{
+    background: red;
+    border-radius: 10%;
+}
+.list-inline li a 
+{
+    
+
+    color: white;
+}
+
+    /* Inserta tu código de la página home/index acá */
