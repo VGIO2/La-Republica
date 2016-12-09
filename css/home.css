@@ -1,12 +1,25 @@
 /*-------------------------------------------HEADER-BANNER*/
 header {
-	background: #f1f1f1;
-}
+	background: #f1f1f1; }
 
 header img {
 	width: 100%;
-}
+	margin-top: 1%; }
 
-header .nav-secundaria a {
-	font-size: 90%;
-}
+header .nav-secundaria {
+	padding-top: 1%;
+	padding-bottom: 1%; }
+
+.nav-secundaria a {
+	font-size: 85%;
+	color: #6e6e6e;
+	font-weight: bold; }
+
+.nav-secundaria .margin-left {
+	margin-left: 2%; }
+
+.nav-secundaria button {
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	background: #ff6500; }
