@@ -52,7 +52,8 @@
 
 .principal-news .img0 {
 	background-image: url("../image/img_grid_principal.jpg");
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	min-height: 500px;
 	width: 100%; }
 
@@ -71,6 +72,7 @@
 
 .imagenes {
 	padding: 0;
+	margin-top: 2%
 }
 
 
