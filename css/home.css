@@ -1,11 +1,35 @@
 .lista ul li{
-    display:inline-block;
-}
-.lista{
-    width:200px: 
+    display: inline-block;
+    margin-left: 3.0px;
+    text-align: center;
+    padding-top: 10px;
 }
 .logo{
+    width: 880px;
     margin-left: 50px;
-    
-
 }
+
+.in{
+    background-image: url(../image/banner-header.jpg);
+    background-repeat: no-repeat;
+    width: 950px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.back{
+    background-color:#DCDCDC;
+    width: 950px;
+    margin-left: 35px;
+    height: 40px;
+    border-radius: 7px;
+    }
+.temas-dia{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    padding-right: 10px;
+   padding-left: 5px;
+
+   
+    }
