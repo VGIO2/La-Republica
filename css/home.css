@@ -70,12 +70,15 @@
 }
 .list-inline
 {
-    background: red;
-    border-radius: 10%;
+    background: #922B21;
+    border-radius: 5%;
 }
 .list-inline li a
 {
-
+  text-decoration: none;
 
     color: white;
+}
+.list-inline  li:hover{
+    background: darkblue;
 }
