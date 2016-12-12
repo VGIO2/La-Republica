@@ -1,10 +1,12 @@
 
 /*----------------------------------------------------------------NOTICIAS-PRINCIPALES*/
 .principal-news {
-	margin-bottom: 5%; }
+	margin-bottom: 5%;
+	font-family: 'Helvetica' }
 
 .principal-news h1 {
-	font-weight: bold; }
+	font-weight: bold;
+	font-family:  }
 
 .principal-news .text {
 	font-size: 120%; }
@@ -21,16 +23,18 @@
 	background: #E6E6E6; }
 
 .shadow {
-	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)) }
+	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2)) }
 
 .principal-news .margin1 {
 	margin-right: 2%;
 	padding-left: 1%;
 	color: #0431B4;
-	text-decoration: none; }
+	text-decoration: none;
+	font-family: 'Helvetica'; }
 
 .principal-news .tweet {
-	color: #00BFFF; }
+	color: #00BFFF;
+	font-family: 'Helvetica'; }
 
 .tweet:hover {
 	text-decoration: none;
@@ -48,30 +52,37 @@
 
 .principal-news .img0 {
 	background-image: url("../image/img_grid_principal.jpg");
-	background-size: cover;
-	min-height: 600px;
+	background-size: 100%;
+	min-height: 500px;
 	width: 100%; }
 
 .principal-news .news1, .news2, .news3 {
 	color: #fff;
 	font-size: 180%;
-	font-weight: bold; }
+	font-weight: bold;
+	margin-bottom: 2%; }
 
 .principal-news ul {
-	display: inline-block; }
+	display: inline-block;
+	padding-left: none; }
 
 .principal-news ul li {
 	list-style: none; }
 
+.imagenes {
+	padding: 0;
+}
+
+
 .principal-news .img1 {
 	background-image: url("../image/cristal-melgar.jpg");
-	background-size: cover;
-	min-height: 285px; }
+	background-size: 100%;
+	min-height: 198px; }
 
 .principal-news .img2 {
 	background-image: url("../image/img_grid_secundario.jpg");
-	background-size: cover;
-	min-height: 285px;
+	background-size: 100%;
+	min-height: 180px;
 	margin-top: 6%; }
 
 .principal-news .back-ico {
