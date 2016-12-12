@@ -1,1 +1,80 @@
-/* Inserta tu código de la página home/index acá */
+
+/*----------------------------------------------------------------NOTICIAS-PRINCIPALES*/
+.principal-news {
+	margin-bottom: 5%; }
+
+.principal-news h1 {
+	font-weight: bold; }
+
+.principal-news .text {
+	font-size: 120%; }
+
+.principal-news .icon-facebook-square {
+	font-size: 120%;
+	color: #0B0B61;
+	background: #E6E6E6; }
+
+.principal-news .icon-twitter-square {
+	font-size: 120%;
+	margin-right: 2%;
+	color: #00BFFF;
+	background: #E6E6E6; }
+
+.shadow {
+	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)) }
+
+.principal-news .margin1 {
+	margin-right: 2%;
+	padding-left: 1%;
+	color: #0431B4;
+	text-decoration: none; }
+
+.principal-news .tweet {
+	color: #00BFFF; }
+
+.tweet:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #00BFFF; }
+
+.margin1:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #0B0B61; }
+
+.principal-news .titulares {
+	color: #a4a4a4;
+	font-weight: bold; }
+
+.principal-news .img0 {
+	background-image: url("../image/img_grid_principal.jpg");
+	background-size: cover;
+	min-height: 600px;
+	width: 100%; }
+
+.principal-news .news1, .news2, .news3 {
+	color: #fff;
+	font-size: 180%;
+	font-weight: bold; }
+
+.principal-news ul {
+	display: inline-block; }
+
+.principal-news ul li {
+	list-style: none; }
+
+.principal-news .img1 {
+	background-image: url("../image/cristal-melgar.jpg");
+	background-size: cover;
+	min-height: 285px; }
+
+.principal-news .img2 {
+	background-image: url("../image/img_grid_secundario.jpg");
+	background-size: cover;
+	min-height: 285px;
+	margin-top: 6%; }
+
+.principal-news .back-ico {
+	display: inline-block;
+	background: #fff;
+	text-decoration: none; }
