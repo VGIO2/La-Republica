@@ -11,6 +11,11 @@
 .principal-news .text {
 	font-size: 120%; }
 
+.titulares {
+	padding-bottom: none;
+	margin-bottom: none;
+}
+
 .principal-news .icon-facebook-square {
 	font-size: 120%;
 	color: #0B0B61;
