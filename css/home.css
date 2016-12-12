@@ -1,1 +1,34 @@
-/* Inserta tu código de la página home/index acá */
+/**{outline: solid red 1px;}*/
+/*-------------------------------------------------------------------------FOOTER--*/
+footer{
+    background-color: #f2f2f2;}
+footer .imagen{
+    margin-top: 60px;}
+footer .contorno{
+    padding: 30px 60px 30px;}
+footer .brecha{
+    padding-left: 20px;
+    margin-left: 50px;
+    border-left: 2px solid #e5e2e2;
+}
+footer ul li a{color: #505558; font-size: 12px;}
+footer ul li a:hover{text-decoration: none;}
+footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+footer hr{
+    margin: 0 auto 15px; border-bottom: 1px solid #f0f0f0;
+}
+footer .col-md-2{
+    margin-left: 30px;
+    padding-left: 10px;
+}
+footer .pie ul li a{
+    color: #6d6d6d;
+}
+footer .movil{
+    background-color: black;
+    color: white;
+}
+footer .movil p{
+    color: #e6e6e6;
+    font-size: 15px;
+}
