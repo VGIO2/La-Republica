@@ -59,9 +59,12 @@ footer .imagen{
     margin-top: 60px;}
 footer .contorno{
     padding: 30px 60px 30px;}
+footer .col-md-4{
+    
+}
 footer .brecha{
-    padding-left: 20px;
-    margin-left: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
     border-left: 2px solid #e5e2e2;
 }
 footer ul li a{color: #505558; font-size: 12px;}
@@ -71,7 +74,7 @@ footer hr{
     margin: 0 auto 15px; border-bottom: 1px solid #f0f0f0;
 }
 footer .col-md-2{
-    margin-left: 30px;
+    margin-left: 10px;
     padding-left: 10px;
 }
 footer .pie ul li a{
