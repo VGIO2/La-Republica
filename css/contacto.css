@@ -24,7 +24,9 @@
     margin-right: 540px;
       border-radius: 5px;
     background-color: #F4F5F7;
-  
+      -moz-box-shadow: -5px -5px #888;
+-webkit-box-shadow: -5px -5px #888;
+box-shadow: -5px -5px #888;
      }
 
 
@@ -57,7 +59,9 @@
       margin-right: 540px;
       background-color: #F4F5F7;
       padding: 10px 80px 150px 10px; 
-;}
+-moz-box-shadow: -5px -5px #888;
+-webkit-box-shadow: -5px -5px #888;
+box-shadow: -5px -5px #888;}
 
   .destinatario .boton-centrado button {
     background-color: black;
