@@ -1,8 +1,58 @@
 *
 {
 
-  outline: 1px solid red;
+  
 }
+
+/*------------------------------------------encabezado1*/
+.encabezado1  .republica img{
+    margin-top:20px;
+}
+.encabezado1 .hoy{
+    text-align: center;
+   
+}
+.encabezado1 .hoy p {
+    border-bottom: 4px solid #ae0808;
+    background: #ae0808;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    width: 30%;
+    margin-left: 40%;
+    font-weight: 100;
+}
+.encabezado1 .hoy strong {
+    border-bottom: 4px solid #ae0808;
+    color: #000;
+    text-align: center;
+    padding: 10px 20px;
+    padding-top: 20px;
+    border-top: 1px solid #646060;
+    border-left: 1px solid #646060;
+    border-right: 1px solid #646060;
+}
+
+.encabezado1 .editorial .uno img {
+    height: 70px;
+}
+.encabezado1 .editorial .text-center {
+    border-radius: 10px ;
+    border:1px solid #3b3333;
+    padding: 0;
+    border-right: transparent;
+    height: 70px;
+    
+    
+}
+.encabezado1 .text-center img{
+    float: right;
+    top:-70px;
+    left: 30px;
+    position: relative;
+}
+
+
 .editorial{
   margin: 0;
   padding: 0;
@@ -11,9 +61,7 @@
   margin: 0;
   padding: 0;
 }
-.editorial .dos {
 
-}
 
 
 .temas{
