@@ -1,1 +1,24 @@
+*
+{
+    outline: 1px solid red;
+}
+.titulo
+
+{
+    text-align: center;
+    color: red;
+}
+
+.texto
+{
+    position:absolute;
+    top: 70%;
+    color: white;
+}
+.video
+{
+    position: relative;
+    text-align: center;
+}
+
 /* Inserta tu código de la página home/index acá */
