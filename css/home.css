@@ -1,1 +1,250 @@
-/* Inserta tu código de la página home/index acá */
+
+
+/*--------------------------------------------------HEADER-BANNER*/
+header {
+	background: #f1f1f1;
+	border-bottom: 1px solid #ccc; }
+
+header img {
+	width: 100%;
+	margin-top: 1%; }
+
+header .nav-secundaria {
+	padding-top: 1%;
+	padding-bottom: 2px; }
+
+.nav-secundaria a {
+	font-size: 80%;
+	color: #6e6e6e;
+	font-weight: bold; }
+
+.nav-secundaria .margin-left {
+	margin-left: 2%; }
+
+.nav-secundaria button {
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	background: #ff6500;
+	font-weight: bold;
+	font-size: 85%;
+	padding: 0 1%; }
+
+.nav-secundaria i {
+	font-size: 120%; }
+
+.icon-twitter, .icon-google, .icon-mail, .icon-rss, .icon-search {
+	margin-left: 2%; }
+
+.nav-secundaria .icon-social-facebook { color: #0B0B61; margin-left: 3%; }
+
+.nav-secundaria .icon-twitter { color: #2ECCFA;  }
+
+.nav-secundaria .icon-google { color: #DF0101; }
+
+.nav-secundaria .icon-mail { color: #FFBF00; }
+
+.nav-secundaria .icon-rss { color: #FF8000; margin-right: 2%;}
+
+.nav-secundaria input {
+	border: 1px solid #ccc;
+	border-top: none; border-bottom: none;
+	width: 17%; }
+
+/*-------------------------------------------------------------------------ultimas noticias--*/
+.ultimas  .i img{
+    width: 100%;
+}
+.noticias2 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 2px solid #768696;
+    position: relative;
+    
+}
+.ultimas .noticias p {
+   font-size: 1px;
+    color: #ccc;
+    padding: 0;
+    margin: 0;
+}
+.ultimas .noticias h3 {
+    padding: 0;
+    margin: 0;
+}
+/*----------------------------------aside */
+
+.aside .boletin{
+    background: url(../image/archive-sidebar-bg.jpg)repeat left top;
+        padding: 2.5em .5em .8em .5em;
+    margin: 0 0 30px;
+    
+    
+}
+.aside form {
+    background: #fff;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 3em 12px;
+    box-sizing: border-box;
+     margin: 0 0 1em;
+    margin-left: 5%;
+}
+.aside .boletin img{
+    margin-left: 30%;
+    margin-top: ;
+    z-index: 100;
+    vertical-align: middle;
+}
+.aside button{
+    width: 90%;
+}
+.boletin input{
+    margin-top: 10px;
+    
+}
+.aside .aweita {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.aside .aweita img{
+    padding-bottom: 20px;
+}
+
+.aside .aweita .cont-aweita{
+     padding: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 1em 12px;
+    box-sizing: border-box;
+     margin: 0 0 1em;
+    margin-left: 4%;
+}
+.aside .aweita .uno img {
+  
+    padding: 0;
+    border: 2px solid #433a3a;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.aside .aweita .uno{
+   
+ padding-right: 0;
+    
+    
+}
+.aside .aweita p{
+   font-size: 10px;
+   margin: 10 10px;
+   
+    
+}
+.aside .aweita .dos{
+    
+   
+     text-align: left;s
+    
+}
+.aweita span{
+   
+    border-bottom: 5px solid #d2186a;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------fin-ultima-noticias---*/
+/*------------------------------------------------fotos destacadas*/
+.fotos-destacadas {
+    width: 90%;
+    text-align: center;
+}
+.fotos-destacadas img{
+    width: 100%;
+}
+.fotos-destacadas .titulo{
+    border-top: 4px solid #768696;
+    position: relative;
+    
+}
+.fotos-destacadas .titulo span{
+     color: white;
+    display: inline-block;
+    padding: 6px 10px;
+    line-height: 1;
+    background-color: #768696;
+   
+    position: relative;
+    top: -10px;
+    
+    text-transform: uppercase;
+    font: 500 15px "Oswald","Helvetica",Arial,sans-serif;
+    }
+.fotos-destacadas .titulo span a {
+    text-decoration: none;
+     color: white;
+}
+
+
+
+
+ .fotos-destacadas .info-fotos .uno img {
+  
+    width: 100%;
+}
+
+.fotos-destacadas .info-fotos .uno{
+   
+ padding-right: 0;
+
+}
+.fotos-destacadas .info-fotos p{
+   font-size: 10px;
+  
+}
+.fotos-destacadas .info-fotos .dos{
+
+     text-align: left;
+    
+}
+
+/*-------------------------------------------------------------------------FOOTER--*/
+footer{
+    background-color: #f2f2f2;}
+footer .imagen{
+    margin-top: 60px;}
+footer .contorno{
+    padding: 30px 60px 30px;}
+footer .col-md-4{
+    
+}
+footer .brecha{
+    padding-left: 0px;
+    margin-left: 0px;
+    border-left: 2px solid #e5e2e2;
+}
+footer ul li a{color: #505558; font-size: 12px;}
+footer ul li a:hover{text-decoration: none;}
+footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+footer hr{
+    margin: 0 auto 15px; border-bottom: 1px solid #f0f0f0;
+}
+footer .col-md-2{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+footer .pie ul li a{
+    color: #6d6d6d;
+}
+footer .movil{
+    background-color: black;
+    color: white;
+}
+footer .movil p{
+    color: #e6e6e6;
+    font-size: 15px;
+}
