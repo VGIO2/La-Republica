@@ -1,1 +1,103 @@
 /* Inserta tu código de la página home/index acá */
+/*-------------------------------------------------------------------------ultimas noticias--*/
+.ultimas  .i img{
+    width: 100%;
+}
+.noticias2 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 2px solid #768696;
+    position: relative;
+
+}
+.ultimas .noticias p {
+   font-size: 1px;
+    color: #ccc;
+    padding: 0;
+    margin: 0;
+}
+.ultimas .noticias h3 {
+    padding: 0;
+    margin: 0;
+}
+/*----------------------------------aside */
+
+.aside .boletin{
+    background: url(../image/archive-sidebar-bg.jpg)repeat left top;
+        padding: 2.5em .5em .8em .5em;
+    margin: 0 0 30px;
+
+
+}
+.aside form {
+    background: #fff;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 3em 12px;
+    box-sizing: border-box;
+     margin: 0 0 1em;
+    margin-left: 5%;
+}
+.aside .boletin img{
+    margin-left: 30%;
+    margin-top: ;
+    z-index: 100;
+    vertical-align: middle;
+}
+.aside button{
+    width: 90%;
+}
+.boletin input{
+    margin-top: 10px;
+
+}
+.aside .aweita {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.aside .aweita img{
+    padding-bottom: 20px;
+}
+
+.aside .aweita .cont-aweita{
+     padding: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 1em 12px;
+    box-sizing: border-box;
+     margin: 0 0 1em;
+    margin-left: 4%;
+}
+.aside .aweita .uno img {
+
+    padding: 0;
+    border: 2px solid #433a3a;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.aside .aweita .uno{
+
+ padding-right: 0;
+
+
+}
+.aside .aweita p{
+   font-size: 10px;
+   margin: 10 10px;
+
+
+}
+.aside .aweita .dos{
+
+
+     text-align: left;s
+
+}
+.aweita span{
+
+    border-bottom: 5px solid #d2186a;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
