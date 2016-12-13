@@ -158,7 +158,7 @@ header .nav-secundaria {
 
 
 /*-------------------------------------------------------------------------fin-ultima-noticias---*/
-/*------------------------------------------------fotos destacadas*/
+/*-----------------fotos destacadas*/
 .fotos-destacadas {
     width: 90%;
     text-align: center;
@@ -192,15 +192,16 @@ header .nav-secundaria {
 
 
 
- .fotos-destacadas .info-fotos .uno img {
-
-    width: 100%;
-}
 
 .fotos-destacadas .info-fotos .uno{
 
  padding-right: 0;
 
+}
+
+ .fotos-destacadas .info-fotos .uno img {
+
+    width: 100%;
 }
 .fotos-destacadas .info-fotos p{
    font-size: 10px;
