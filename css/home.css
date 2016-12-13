@@ -1,4 +1,3 @@
-
 /**{outline: solid red 1px;}*/
 /*----------------------------------------------------------------------------HEADER-BANNER*/
 
@@ -88,8 +87,7 @@ header .nav-secundaria {
 .list-inline{background: #d90c0c;border-radius: 5px;}
 .list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
 .list-inline  li:hover{background: #003376;}
-
-/*-------------------------------------------------------------------------ultimas noticias--*/
+/*------------------------------------------------------------------------------------------------ULTIMAS-NOTICIAS--*/
 .ultimas  .i img{
     width: 100%;
 }
@@ -110,8 +108,8 @@ header .nav-secundaria {
     padding: 0;
     margin: 0;
 }
-/*-------------------------------------------------------------aside */
 
+/*----------------------------------------------------------------------------ASIDE*/
 .aside .boletin{
     background: url(../image/archive-sidebar-bg.jpg)repeat left top;
         padding: 2.5em .5em .8em .5em;
@@ -191,7 +189,7 @@ header .nav-secundaria {
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
-/*-----------------fotos destacadas*/
+/*-----------------------------------------------------------------FOTOS DESTACADAS*/
 .fotos-destacadas {
     width: 90%;
     text-align: center;
