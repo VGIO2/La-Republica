@@ -1,7 +1,5 @@
-
-/**{outline: solid red 1px;}*/
+**{outline: solid red 1px;}*/
 /*----------------------------------------------------------------------------HEADER-BANNER*/
-
 header {
 	background: #f1f1f1;
 	border-bottom: 1px solid #ccc; }
@@ -26,9 +24,6 @@ header .nav-secundaria {
 	border-radius: 5px;
 	color: #fff;
 	background: #fe4949;
-	border-radius: 8px;
-	color: #fff;
-	background: #ff6500;
 	font-weight: bold;
 	font-size: 85%;
 	padding: 0 1%; }
@@ -80,6 +75,33 @@ header .nav-secundaria {
 .encabezado1 .text-center img{ float: right;top:-70px;left: 30px;position: relative;}
 .editorial{ margin: 0; padding: 0;}
 .editorial .uno{ margin: 0;padding: 0;}
+/*-------------------------------------temas del dia--------------------------------------------------------------------*/
+.lista ul li{
+    display: inline-block;
+    margin-left: 3.0px;
+    text-align: center;
+    padding-top: 10px;
+}
+.back ul {
+    padding-left: 0%;
+}
+
+.in img {
+    width: 100%;
+}
+.back{
+    background-color:#DCDCDC;
+    border-radius: 7px;
+    }
+.temas-dia{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    padding-right: 12px;
+   padding-left: 6px;
+    border-radius:7px;
+}
+
 
 /*--------------------------------------------------------------------------------------------------ENCABEZADO 2*/
 .encabezado{margin-top: 20px;}
@@ -88,7 +110,127 @@ header .nav-secundaria {
 .list-inline{background: #d90c0c;border-radius: 5px;}
 .list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
 .list-inline  li:hover{background: #003376;}
+.principal-news {
+	margin-bottom: 5%;
+	font-family: 'Helvetica' }
 
+.principal-news h1 {
+	font-weight: bold;
+	font-size:300%;  }
+
+.principal-news .text {
+	font-size: 120%; }
+
+.titulares {
+	padding-bottom: none;
+	margin-bottom: none;
+}
+
+.principal-news .icon-facebook-square {
+	font-size: 120%;
+	color: #0B0B61;
+	background: #E6E6E6; }
+
+.principal-news .icon-twitter-square {
+	font-size: 120%;
+	margin-right: 2%;
+	color: #00BFFF;
+	background: #E6E6E6; }
+
+.shadow {
+	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2)) }
+
+.principal-news .margin1 {
+	margin-right: 2%;
+	padding-left: 1%;
+	color: #0431B4;
+	text-decoration: none;
+	font-family: 'Helvetica'; }
+
+.principal-news .tweet {
+	color: #00BFFF;
+	font-family: 'Helvetica'; }
+
+.tweet:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #00BFFF; }
+
+.margin1:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #0B0B61; }
+
+.principal-news .titulares {
+	color: #a4a4a4;
+	font-weight: bold; }
+
+.principal-news .img0 {
+	background-image: url("../image/img_grid_principal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	width: 100%; }
+
+.principal-news .news1, .news2, .news3 {
+	color: #fff;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 2%; }
+
+.principal-news ul {
+	display: inline-block;
+	padding-left: none; }
+
+.principal-news ul li {
+	list-style: none; }
+
+.imagenes {
+	padding: 0;
+	margin-top: 2%
+}
+
+
+.principal-news .img1 {
+	background-image: url("../image/cristal-melgar.jpg");
+	background-size: 100%;
+	min-height: 198px; }
+
+.principal-news .img2 {
+	background-image: url("../image/img_grid_secundario.jpg");
+	background-size: 100%;
+	min-height: 180px;
+	margin-top: 6%; }
+
+.principal-news .back-ico {
+	display: inline-block;
+	background: #fff;
+	text-decoration: none; }
+/*-----------------------------------------------------noticias deportivas*/
+.deport
+{
+	padding: 15px;
+}
+.deport .titulo
+
+{
+    text-align: center;
+    color: red;
+}
+
+.deport .texto
+{
+    position:absolute;
+    top: 70%;
+    color: white;
+
+}
+.deport .video
+{
+    position: relative;
+    text-align: center;
+    background: rgb(0,0,0,4.3);
+}
 /*-------------------------------------------------------------------------ultimas noticias--*/
 .ultimas  .i img{
     width: 100%;
@@ -98,7 +240,7 @@ header .nav-secundaria {
     padding-top: 25px;
     border-bottom: 2px solid #768696;
     position: relative;
-
+    
 }
 .ultimas .noticias p {
    font-size: 1px;
@@ -110,14 +252,14 @@ header .nav-secundaria {
     padding: 0;
     margin: 0;
 }
-/*-------------------------------------------------------------aside */
+/*----------------------------------aside */
 
 .aside .boletin{
     background: url(../image/archive-sidebar-bg.jpg)repeat left top;
         padding: 2.5em .5em .8em .5em;
     margin: 0 0 30px;
-
-
+    
+    
 }
 .aside form {
     background: #fff;
@@ -140,7 +282,7 @@ header .nav-secundaria {
 }
 .boletin input{
     margin-top: 10px;
-
+    
 }
 .aside .aweita {
     text-align: center;
@@ -160,7 +302,7 @@ header .nav-secundaria {
     margin-left: 4%;
 }
 .aside .aweita .uno img {
-
+  
     padding: 0;
     border: 2px solid #433a3a;
     margin-right: 10px;
@@ -168,30 +310,35 @@ header .nav-secundaria {
 }
 
 .aside .aweita .uno{
-
+   
  padding-right: 0;
-
-
+    
+    
 }
 .aside .aweita p{
    font-size: 10px;
    margin: 10 10px;
-
-
+   
+    
 }
 .aside .aweita .dos{
-
-
+    
+   
      text-align: left;s
-
+    
 }
 .aweita span{
-
+   
     border-bottom: 5px solid #d2186a;
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
-/*-----------------fotos destacadas*/
+
+
+
+
+/*-------------------------------------------------------------------------fin-ultima-noticias---*/
+/*------------------------------------------------fotos destacadas*/
 .fotos-destacadas {
     width: 90%;
     text-align: center;
@@ -202,7 +349,7 @@ header .nav-secundaria {
 .fotos-destacadas .titulo{
     border-top: 4px solid #768696;
     position: relative;
-
+    
 }
 .fotos-destacadas .titulo span{
      color: white;
@@ -210,10 +357,10 @@ header .nav-secundaria {
     padding: 6px 10px;
     line-height: 1;
     background-color: #768696;
-
+   
     position: relative;
     top: -10px;
-
+    
     text-transform: uppercase;
     font: 500 15px "Oswald","Helvetica",Arial,sans-serif;
     }
@@ -221,12 +368,31 @@ header .nav-secundaria {
     text-decoration: none;
      color: white;
 }
-.fotos-destacadas .info-fotos .uno{padding-right: 0;}
-.fotos-destacadas .info-fotos .uno img {width: 100%;}
-.fotos-destacadas .info-fotos p{ font-size: 10px;}
-.fotos-destacadas .info-fotos .dos{text-align: left;}
 
-/*-------------------------------------------------------------------------FOOTER--*/
+
+
+
+ .fotos-destacadas .info-fotos .uno img {
+  
+    width: 100%;
+}
+
+.fotos-destacadas .info-fotos .uno{
+   
+ padding-right: 0;
+
+}
+.fotos-destacadas .info-fotos p{
+   font-size: 10px;
+  
+}
+.fotos-destacadas .info-fotos .dos{
+
+     text-align: left;
+    
+}
+
+/*-------------------------------------------------------------------------------------------------FOOTER--*/
 footer{
     background-color: #f2f2f2;}
 footer .imagen{
@@ -234,7 +400,7 @@ footer .imagen{
 footer .contorno{
     padding: 30px 60px 30px;}
 footer .col-md-4{
-
+    
 }
 footer .brecha{
     padding-left: 0px;
@@ -263,18 +429,4 @@ footer .movil p{
     font-size: 15px;
 }
 
-.titulo{
-    text-align: center;
-    color: red;
-}
-.texto
-{
-    position:absolute;
-    top: 70%;
-    color: white;
-}
-.video
-{
-    position: relative;
-    text-align: center;
-}
+
