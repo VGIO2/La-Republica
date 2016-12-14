@@ -1,4 +1,4 @@
-/*{outline: solid red 1px;}*/
+**{outline: solid red 1px;}*/
 /*----------------------------------------------------------------------------HEADER-BANNER*/
 header {
 	background: #f1f1f1;
@@ -28,19 +28,6 @@ header .nav-secundaria {
 	font-size: 85%;
 	padding: 0 1%; }
 
- .searche-box input {
-    padding: 4px;
-
-}
-.searche-box .icon-search {
-    margin-left: -25px;}
-.fa {
-    display: inline-block;
-    font: normal normal normal  FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;}
-
 .nav-secundaria i {
 	font-size: 120%; }
 
@@ -60,7 +47,7 @@ header .nav-secundaria {
 .nav-secundaria input {
 	border: 1px solid #ccc;
 	border-top: none; border-bottom: none;
-	width: 100px; }
+	width: 17%; }
 /*--------------------------------------------------------------------------------------------------ENCABEZADO 1*/
 .encabezado1{margin-top: 20px;}
 .encabezado1  .republica img{margin-top:20px;}
@@ -85,39 +72,9 @@ header .nav-secundaria {
 }
 .encabezado1 .editorial .uno img { height: 70px;}
 .encabezado1 .editorial .text-center {border-radius: 10px ;border:1px solid #3b3333;padding: 0; border-right: transparent; height: 70px; }
-.encabezado1 .editorial .text-center img{ float: right;top:-70px;left: 30px;position: relative;}
+.encabezado1 .text-center img{ float: right;top:-70px;left: 30px;position: relative;}
 .editorial{ margin: 0; padding: 0;}
 .editorial .uno{ margin: 0;padding: 0;}
-
-/*----------------------------------------------------------------menu*/
-nav li a{
-	display: block;
-	padding: 15px 15px;
-	transition: all 0.2s;
-	border-radius: 6px;
-}
-nav li a:hover, nav li a:focus{
-	text-decoration: none;
-	outline: none;
-	background: #a2caf0;
-	border-bottom: 4px solid #3f85c6;
-}
-
-#main-navigation
-{
-	z-index: 1;
-	position: absolute;
-	left:  0px;
-	margin: 10px 0 0 0;
-}
-#main-navigation ul
-{
-	background: rgba(0,0,0,0.5);
-	list-style: none;
-	padding: 50px;
-	border-radius: 5px;
-
-}
 /*-------------------------------------temas del dia--------------------------------------------------------------------*/
 .lista ul li{
     display: inline-block;
@@ -204,96 +161,75 @@ nav li a:hover, nav li a:focus{
 	color: #fff;
 	background: #0B0B61; }
 
+.principal-news .titulares {
+	color: #a4a4a4;
+	font-weight: bold; }
+
+.principal-news .img0 {
+	background-image: url("../image/img_grid_principal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	width: 100%; }
+
+.principal-news .news1, .news2, .news3 {
+	color: #fff;
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 2%; }
+
+.principal-news ul {
+	display: inline-block;
+	padding-left: none; }
+
+.principal-news ul li {
+	list-style: none; }
+
+.imagenes {
+	padding: 0;
+	margin-top: 2%
+}
 
 
+.principal-news .img1 {
+	background-image: url("../image/cristal-melgar.jpg");
+	background-size: 100%;
+	min-height: 198px; }
 
+.principal-news .img2 {
+	background-image: url("../image/img_grid_secundario.jpg");
+	background-size: 100%;
+	min-height: 180px;
+	margin-top: 6%; }
 
+.principal-news .back-ico {
+	display: inline-block;
+	background: #fff;
+	text-decoration: none; }
+/*-----------------------------------------------------noticias deportivas*/
+.deport
+{
+	padding: 15px;
+}
+.deport .titulo
 
-/*-------------------------------------------------------------noticias principale*/
-.noticiaprin{
+{
+    text-align: center;
+    color: red;
+}
+
+.deport .texto
+{
+    position:absolute;
+    top: 70%;
+    color: white;
+
+}
+.deport .video
+{
     position: relative;
-    margin: 22px 0;
-    }
-.photo a{
-    color: white;
-    }
-.photo a:hover{
-    text-decoration: none;
-    color: white;
-}
-.botones{
-   margin-left: 10px;
-   }
-.botones ul li a{
-    padding-left: 30px;
-}
-.glass h2 {
-    margin-left: 20px;
-}
-.glass{
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: auto;
-    min-height: 20%;
-     padding-right: 82px;
-    background: #ccc;
-    background: -moz-linear-gradient(top,transparent 0,black 60%);
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,transparent),color-stop(55%,black));
-    background: -webkit-linear-gradient(top,transparent 0,black 60%);
-    background: -o-linear-gradient(top,transparent 0,black 60%);
-    background: -ms-linear-gradient(top,transparent 0,black 60%);
-    background: linear-gradient(to bottom,transparent 0,black 60%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#1f1f1f",GradientType=0);
-}
-/*-------------------------------------------------------------------section columnista-*/
-.columnistas {
-  background: #F4F5F7;
-   padding: 70px 10px;
-}
-  
-  margin: 20px 0;
-  border-top: 5px solid #BA1414;
-  border-right: 0;
-  border-bottom: 0;
-  border-left: 0; }
-  .columnistas .title{
-    position: absolute;
-    font-size: 1.6em;
-    color: white;
-    padding: 2px 20px;
-    font-family: 'PT Sans Narrow', 'Agency FB', sans-serif;
-    background: #BA1414;
-    margin: -1.5% 42% 0 42%; }
-
-  .columnistas div.cont {
-    display: inline-block;
-    width: 16%;
-     margin-top:2%; 
-}
-    .columnistas div.cont .img-columnista {
-      width: 90px;
-      height: 90px;
-      margin: 0 8px; }
-    .columnistas div.cont .nombre-colum {
-      font-size: 0.7em;
-      color: #1f1f1f;
-      padding: 2px 0; }
-    .columnistas div.cont .txt-colum {
-      font-weight: 600; }
-     .separador span {
-    background: #c71100;
-    color: #fff;
-    padding: 3px 5px;
-}
-.separador h3, span {
-    transform: translateY(-28px);
-}
-.sep-pegado {
-    margin-bottom: -56px;
-}
-.separador .divisor {
-    border: 2px solid rgba(180, 5, 5, 0.72);
+    text-align: center;
+    background: rgb(0,0,0,4.3);
 }
 /*-------------------------------------------------------------------------ultimas noticias--*/
 .ultimas  .i img{
@@ -315,9 +251,6 @@ nav li a:hover, nav li a:focus{
 .ultimas .noticias h3 {
     padding: 0;
     margin: 0;
-}
-.ultimas .iconos{
-    margin-top: 30px;
 }
 /*----------------------------------aside */
 
@@ -495,65 +428,5 @@ footer .movil p{
     color: #e6e6e6;
     font-size: 15px;
 }
-/*-----------------------------------------MEDIA*/
-@media screen and (max-width: 900px) {
-
-    .nav-secundaria .link a {
-        
-        margin: 1px;
-        padding: 0px;
-        font-size: 10px;
-    }
-    
-    .nav-secundaria .nav-right {
-        font-size: 10px;
-    }
-    .nav-secundaria .inp {
-        font-size: 10px;
-    }
-    
-    .searche-box .icon-search {
-    margin-left: -25px;
-        margin-top: -30px;
-    }
-    .encabezado1 .republica {
-       text-align: center;
-        
-    }
-
-    .encabezado1 .republica img{
-        padding-bottom: 15px;
-        
-    }
-    .encabezado1  .hoy{
-        padding-bottom: 13px;
-        text-align: center;
-    }
-    .encabezado1 .hoy p{
-        margin-left: 35%;
-    }
-    
-    .encabezado1 .text-center img{ float: right;top:-68px;left: 0px;position: relative;}
-    
-    
-    .lo{
-        margin-top: 20px;
-    }
-    
-    .lo .lista .u {
-        display: none;
-    }
-    .lo .in{
-        display: none;
-    }
-    .principal .pri{
-        margin-bottom: 40px;
-    }
-    .principal h2{
-        font-size: 25px;
-        width: 120%;
-    }
-    
 
 
-}
