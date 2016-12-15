@@ -1,1 +1,67 @@
 /* Inserta tu código de la página blog acá */
+.blog .img-responsive{float: right; ;}
+.blog h4{color: #708698; font-family: 'Oswald', sans-serif;margin: 30px 0 10px;}
+.blog h3{ font-size: 18px;}
+.blog .separacion{ margin-bottom: 30px;}
+.cuadro-blanco{border: solid 2px #e3e3e3;padding: 20px 10px;}
+.cuadro-gris{background-color:#e1e7ea; padding: 8px;}
+.cuadro-gris img{border: solid 2px white; }
+.cuadro-gris a{color: #9a9393}
+
+.texto1{float: right;margin-right: 60px;}
+.encabezado{margin-top: 20px;}
+.temas{text-align: center;}
+.encabezado ul li{padding: 2px;}
+.list-inline{background: #d90c0c;border-radius: 5px;}
+.list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
+.list-inline  li:hover{background: #003376;}
+.principal-news {
+	margin-bottom: 5%;
+	font-family: 'Helvetica' }
+
+.principal-news h1 {
+	font-weight: bold;
+	font-size:300%;  }
+
+.principal-news .text {
+	font-size: 120%; }
+
+.titulares {
+	padding-bottom: none;
+	margin-bottom: none;
+}
+
+.principal-news .icon-facebook-square {
+	font-size: 120%;
+	color: #0B0B61;
+	background: #E6E6E6; }
+
+.principal-news .icon-twitter-square {
+	font-size: 120%;
+	margin-right: 2%;
+	color: #00BFFF;
+	background: #E6E6E6; }
+
+.shadow {
+	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2)) }
+
+.principal-news .margin1 {
+	margin-right: 2%;
+	padding-left: 1%;
+	color: #0431B4;
+	text-decoration: none;
+	font-family: 'Helvetica'; }
+
+.principal-news .tweet {
+	color: #00BFFF;
+	font-family: 'Helvetica'; }
+
+.tweet:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #00BFFF; }
+
+.margin1:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #0B0B61; }

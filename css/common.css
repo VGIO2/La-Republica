@@ -1,1 +1,211 @@
-/* Inserta tu código común entre todas las páginas acá */
+**{outline: solid red 1px;}*/
+/*----------------------------------------------------------------------------HEADER-BANNER*/
+header {
+	background: #f1f1f1;
+	border-bottom: 1px solid #ccc; }
+
+header img {
+	width: 100%;
+	margin-top: 1%; }
+
+header .nav-secundaria {
+	padding-top: 1%;
+	padding-bottom: 2px; }
+.nav-secundaria a {
+	font-size: 80%;
+	color: #6e6e6e;
+	font-weight: bold; }
+
+.nav-secundaria .margin-left {
+	margin-left: 2%; }
+
+.nav-secundaria button {
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	background: #fe4949;
+	font-weight: bold;
+	font-size: 85%;
+	padding: 0 1%; }
+
+ .searche-box input {
+    padding: 4px;
+
+}
+.searche-box .icon-search {
+    margin-left: -25px;}
+.fa {
+    display: inline-block;
+    font: normal normal normal  FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;}
+
+.nav-secundaria i {
+	font-size: 120%; }
+
+.icon-twitter, .icon-google, .icon-mail, .icon-rss, .icon-search {
+	margin-left: 2%; }
+
+.nav-secundaria .icon-social-facebook { color: #0B0B61; margin-left: 3%; }
+
+.nav-secundaria .icon-twitter { color: #2ECCFA;  }
+
+.nav-secundaria .icon-google { color: #DF0101; }
+
+.nav-secundaria .icon-mail { color: #FFBF00; }
+
+.nav-secundaria .icon-rss { color: #FF8000; margin-right: 2%;}
+
+.nav-secundaria input {
+	border: 1px solid #ccc;
+	border-top: none; border-bottom: none;
+	width: 100px; }
+/*--------------------------------------------------------------------------------------------------ENCABEZADO 1*/
+.encabezado1{margin-top: 20px;}
+.encabezado1  .republica img{margin-top:20px;}
+.encabezado1 .hoy{text-align: center;}
+.encabezado1 .hoy p {border-bottom: 4px solid #ae0808;background: #ae0808;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    width: 30%;
+    margin-left: 40%;
+    font-weight: 100;
+}
+.encabezado1 .hoy strong {
+    border-bottom: 4px solid #ae0808;
+    color: #000;
+    text-align: center;
+    padding: 10px 20px;
+    padding-top: 20px;
+    border-top: 1px solid #646060;
+    border-left: 1px solid #646060;
+    border-right: 1px solid #646060;
+}
+.encabezado1 .editorial .uno img { height: 70px;}
+.encabezado1 .editorial .text-center {border-radius: 10px ;border:1px solid #3b3333;padding: 0; border-right: transparent; height: 70px; }
+.encabezado1 .text-center img{ float: right;top:-70px;left: 30px;position: relative;}
+.editorial{ margin: 0; padding: 0;}
+.editorial .uno{ margin: 0;padding: 0;}
+/*-------------------------------------temas del dia--------------------------------------------------------------------*/
+.lista ul li{
+    display: inline-block;
+    margin-left: 3.0px;
+    text-align: center;
+    padding-top: 10px;
+}
+.back ul {
+    padding-left: 0%;
+}
+
+.in img {
+    width: 100%;
+}
+.back{
+    background-color:#DCDCDC;
+    border-radius: 7px;
+    }
+.temas-dia{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    padding-right: 12px;
+   padding-left: 6px;
+    border-radius:7px;
+}
+/*-------------------------------------------------------------------------------------------------FOOTER--*/
+footer{
+    background-color: #f2f2f2;}
+footer .imagen{
+    margin-top: 60px;}
+footer .contorno{
+    padding: 30px 60px 30px;}
+footer .col-md-4{
+
+}
+footer .brecha{
+    padding-left: 0px;
+    margin-left: 0px;
+    border-left: 2px solid #e5e2e2;
+}
+footer ul li a{color: #505558; font-size: 12px;}
+footer ul li a:hover{text-decoration: none;}
+footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+footer hr{
+    margin: 0 auto 15px; border-bottom: 1px solid #f0f0f0;
+}
+footer .col-md-2{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+footer .pie ul li a{
+    color: #6d6d6d;
+}
+footer .movil{
+    background-color: black;
+    color: white;
+}
+footer .movil p{
+    color: #e6e6e6;
+    font-size: 15px;
+}
+@media screen and (max-width: 900px) {
+
+    .nav-secundaria .link a {
+
+        margin: 1px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .nav-secundaria .nav-right {
+        font-size: 10px;
+    }
+    .nav-secundaria .inp {
+        font-size: 10px;
+    }
+
+    .searche-box .icon-search {
+    margin-left: -25px;
+        margin-top: -30px;
+    }
+    .encabezado1 .republica {
+       text-align: center;
+
+    }
+
+    .encabezado1 .republica img{
+        padding-bottom: 15px;
+
+    }
+    .encabezado1  .hoy{
+        padding-bottom: 13px;
+        text-align: center;
+    }
+    .encabezado1 .hoy p{
+        margin-left: 35%;
+    }
+
+    .encabezado1 .text-center img{ float: right;top:-68px;left: 0px;position: relative;}
+
+
+    .lo{
+        margin-top: 20px;
+    }
+
+    .lo .lista .u {
+        display: none;
+    }
+    .lo .in{
+        display: none;
+    }
+    .principal .pri{
+        margin-bottom: 40px;
+    }
+    .principal h2{
+        font-size: 25px;
+        width: 120%;
+    }
+
+}
