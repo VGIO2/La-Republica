@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*--------------------------------------contacto*/
 contactos p {
   font-size: 15.3px;
@@ -68,6 +69,8 @@ box-shadow: -5px -5px #888;}
     padding: 1% 15%;
     color: white;
     margin-left: 30%; }
+=======
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 
 /*@media */
 @media (min-width: 320px) and (max-width: 658px) {
@@ -110,4 +113,8 @@ box-shadow: -5px -5px #888;}
       background-color: black;
       padding: 1% 15%;
       color: white;
+<<<<<<< HEAD
       margin-left: 1%; } }
+=======
+      margin-left: 1%; } }
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba

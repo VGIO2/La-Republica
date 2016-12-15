@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 /*---------------------------------------------------columnistas*/
 
 columnistas .img-responsive
 {
 	float: right; 
+=======
+.columnistas .img-responsive
+{
+	float: right;
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 }
 .columnistas h4
 {
@@ -11,7 +17,11 @@ columnistas .img-responsive
 	margin: 30px 0 10px;
 }
 .columnistas h3
+<<<<<<< HEAD
 { 
+=======
+{
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 	font-size: 18px;
 }
 .columnistas .separacion
@@ -30,7 +40,11 @@ columnistas .img-responsive
 }
 .cuadro2 img
 {
+<<<<<<< HEAD
 	border: solid 2px white; 
+=======
+	border: solid 2px white;
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 }
 .cuadro2 a
 {
@@ -72,7 +86,11 @@ button
    background: #d90c0c;
    font-size: 15px;
 }
+<<<<<<< HEAD
 .menu .list-inline 
+=======
+.menu .list-inline
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 {
 	text-decoration: none;
  color: white;
@@ -88,34 +106,115 @@ button
 	border-radius: 20px;
 	background: #922B21;
 }
+<<<<<<< HEAD
 media screen and (max-width: 900px) {
 
     .nav-secundaria .link a {
         
+=======
+.encabezado{margin-top: 20px;}
+.temas{text-align: center;}
+.encabezado ul li{padding: 2px;}
+.encabezado .list-inline{background: #d90c0c;border-radius: 5px;}
+.encabezado .list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
+.encabezado .list-inline  li:hover{background: #003376;}
+.principal-news {
+	margin-bottom: 5%;
+	font-family: 'Helvetica' }
+
+.principal-news h1 {
+	font-weight: bold;
+	font-size:300%;  }
+
+.principal-news .text {
+	font-size: 120%; }
+
+.titulares {
+	padding-bottom: none;
+	margin-bottom: none;
+}
+
+.principal-news .icon-facebook-square {
+	font-size: 120%;
+	color: #0B0B61;
+	background: #E6E6E6; }
+
+.principal-news .icon-twitter-square {
+	font-size: 120%;
+	margin-right: 2%;
+	color: #00BFFF;
+	background: #E6E6E6; }
+
+.shadow {
+	 background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.2)) }
+
+.principal-news .margin1 {
+	margin-right: 2%;
+	padding-left: 1%;
+	color: #0431B4;
+	text-decoration: none;
+	font-family: 'Helvetica'; }
+
+.principal-news .tweet {
+	color: #00BFFF;
+	font-family: 'Helvetica'; }
+
+.tweet:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #00BFFF; }
+
+.margin1:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #0B0B61; }
+
+
+media screen and (max-width: 900px) {
+
+    .nav-secundaria .link a {
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
         margin: 1px;
         padding: 0px;
         font-size: 10px;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     .nav-secundaria .nav-right {
         font-size: 10px;
     }
     .nav-secundaria .inp {
         font-size: 10px;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     .searche-box .icon-search {
     margin-left: -25px;
         margin-top: -30px;
     }
     .encabezado1 .republica {
        text-align: center;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     }
 
     .encabezado1 .republica img{
         padding-bottom: 15px;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     }
     .encabezado1  .hoy{
         padding-bottom: 13px;
@@ -124,17 +223,30 @@ media screen and (max-width: 900px) {
     .encabezado1 .hoy p{
         margin-left: 35%;
     }
+<<<<<<< HEAD
     
     .encabezado1 .text-center img{ float: right;top:-68px;left: 0px;position: relative;}
     
     .encabezado {
         display: none;
         
+=======
+
+    .encabezado1 .text-center img{ float: right;top:-68px;left: 0px;position: relative;}
+
+    .encabezado {
+        display: none;
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     }
     .lo{
         margin-top: 20px;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
     .lo .lista .u {
         display: none;
     }
@@ -148,7 +260,11 @@ media screen and (max-width: 900px) {
         font-size: 25px;
         width: 120%;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 
 
 }
@@ -161,7 +277,11 @@ media screen and (max-width: 900px) {
 	margin-bottom: -56px;
 }
 .columnistas-home{
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
 	padding-top: 50px;
 	margin-bottom: 10px;
 }
@@ -191,4 +311,8 @@ media screen and (max-width: 900px) {
 }
 
 
+<<<<<<< HEAD
 /
+=======
+/
+>>>>>>> b9f781e4a3535d9a2fc5c90280f985f6f50e0cba
