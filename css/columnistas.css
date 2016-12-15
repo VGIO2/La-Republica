@@ -89,9 +89,9 @@ button
 .encabezado{margin-top: 20px;}
 .temas{text-align: center;}
 .encabezado ul li{padding: 2px;}
-.list-inline{background: #d90c0c;border-radius: 5px;}
-.list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
-.list-inline  li:hover{background: #003376;}
+.encabezado .list-inline{background: #d90c0c;border-radius: 5px;}
+.encabezado .list-inline li a{ text-decoration: none;color: white; padding: 3px; font-weight: bold;}
+.encabezado .list-inline  li:hover{background: #003376;}
 .principal-news {
 	margin-bottom: 5%;
 	font-family: 'Helvetica' }
